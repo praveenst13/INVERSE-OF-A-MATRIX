@@ -15,6 +15,7 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
 #Program to find the solution for the given linear equations.
 #Developed by: Praveen s
 #RegisterNumber:22009017
@@ -24,8 +25,9 @@ a=([1,3],[2,5])
 b=([5,-3])
 sol=np.linalg.inv(a).dot(b)
 print(sol)
+```
 ## Output:
 [-34.  13.]
 ## Result: 
-Thus the solutions for the linear equations are successfully solved using python program
+Thus the solutions for the linear equations are successfully solved using python programming
 
